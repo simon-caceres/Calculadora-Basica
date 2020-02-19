@@ -1,0 +1,30 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+table
+{
+	width: 400px;
+	border: solid 10px rgb(41, 175, 41);
+	border-radius: 200px;
+	margin: 100px;
+}
+
+
+button{
+	width: 100%;
+	font-size: 150%;
+	border: solid 2px rgb(41, 175, 41);
+}
+
+.ac{
+	color: brown;
+}
+
+.result{
+	height: 60px;
+	font-size: 25px;
+}

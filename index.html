@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet" />
+    <title>desafio 2</title>
+</head>
+<body>
+  <table>
+      <tr>
+          <td colspan="4" id = "result" class="result"></td> 
+      </tr>
+      <tr>
+          <td><button onclick="add('1')">1</button></td>
+          <td><button onclick="add('2')">2</button></td>
+          <td><button onclick="add('3')">3</button></td>
+          <td><button onclick="add('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="add('4')">4</button></td>
+        <td><button onclick="add('5')">5</button></td>
+        <td><button onclick="add('6')">6</button></td>
+        <td><button onclick="add('-')">-</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="add('7')">7</button></td>
+        <td><button onclick="add('8')">8</button></td>
+        <td><button onclick="add('9')">9</button></td>
+        <td><button onclick="add('*')">*</button></td>
+    </tr>
+    <tr>
+        <td colspan="3"><button onclick="add('0')">0</button></td>
+        <td ><button onclick="add('/')">/</button></td>
+    </tr>
+    <tr>
+        <td colspan="2"> <button class="ac" onclick="del()">AC</button></td>
+        <td><button onclick="add('.')">.</button></td>
+        <td><button onclick="calc()">=</button></td>
+    </tr>
+  </table>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html> 
