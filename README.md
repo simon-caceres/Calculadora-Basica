@@ -1,2 +1,4 @@
 # Calculadora-Basica
-con JavaScript puro
+
+
+Desarrollada en HTML y JavaScript
